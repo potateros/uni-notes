@@ -1,0 +1,11 @@
+mvi a,2
+mvi b,3
+mvi c,4
+mvi d,5
+mvi e,6
+add b
+add c
+add d
+add e
+
+hlt
