@@ -2,7 +2,7 @@
 
 ### Computer Evolution and Performance Issues
 
-### Chapter 1 - Basic Concepts & Computer Evaluation
+#### Chapter 1 - Basic Concepts & Computer Evaluation
 1. Distinguish between structure and funciton:
 
     - Structure: The way in which components relate to each other.
@@ -11,48 +11,48 @@
 2. Name Two Assembly Language applications:
     - Direct hardware manipulation, accessing specialized processor instructions, address critical performance issues.
 
-### Chapter 2 - Performance Issues
+#### Chapter 2 - Performance Issues
 1. Processing speed is an important feature of computer's performance. What else is considered important when buying a computer?
 
-
+----------
 
 ### Number Systems and Computer Arithmetic
 
-### Chapter 9 - Number Systems
+#### Chapter 9 - Number Systems
 1.
 
-### Chapter 10 - Computer Arithmetic
+#### Chapter 10 - Computer Arithmetic
 1.
 
-
+----------
 
 ### Digital Logic
 
-### Chapter 11 - Digital Logic
+#### Chapter 11 - Digital Logic
 1.
 
 
 
 ### Instruction sets: Characteristics and Functions, Addressing Modes and Formats
 
-### Chapter 12 - Instruction Sets: Characteristics and Functions
+#### Chapter 12 - Instruction Sets: Characteristics and Functions
 1.
 
-### Chapter 13 - Instruction Sets: Addressing Modes and Formats
+#### Chapter 13 - Instruction Sets: Addressing Modes and Formats
 1.
 
-
+----------
 
 ### Computer Functions and Interconnections, Cache, Internal and External Memory, Input/Output
 
-### Chapter 4 - Cache Memory
+#### Chapter 4 - Cache Memory
 1. What is cache memory?
     - A small type of volatile memory that provides high-speed access to a processor. It is the fastest memory in a computer, and is typically integrated into the processor.
 
 2. Why is cache memory considered an essential part of a typical computer memory design?
     - Cache provides faster data access by storing instances of program and data routinely accessed by the processor. Other types of memory are too slwo to keep up with the processor.
 
-### Chapter 5 - Internal Memory
+#### Chapter 5 - Internal Memory
 1. What are the differences between SRAM and DRAM in terms of speed and cost?
      SRAM | Both | DRAM
      -----|------|-----
@@ -68,11 +68,11 @@
     - Uses electrical erasing technologies, does not provide byte-level erasure. Microchip is organized so that a section of memory cells are erased in a flash.
     - Used as RAM, SSD, thumb drives.
 
-### Chapter 6 - External Memory
+#### Chapter 6 - External Memory
 1. What is a Solid State Drive (SSD)? Identify a common type of SSD.
     - A memory device made with solid state components that can be used as a HDD replacement. A common type of SSD: NAND flash.
 
-### Chapter 7 - Input/Output
+#### Chapter 7 - Input/Output
 1. Describe the weaknesses of programmed and interrupt-driven I/O. What has the industry proposed to overcome these weaknesses?
     - Weaknesses:
         - I/O rate limited by the speed with which the processor can test & service a device.
@@ -80,7 +80,7 @@
     - Proposed:
         - A more efficient technique: Direct Memory Access (DMA)
 
-### Chapter 3 - A Top-Level View of Computer Function and Interconnection
+#### Chapter 3 - A Top-Level View of Computer Function and Interconnection
 1. Describe the tuerm 'software'.
     - A sequence of codes and instructions, part of the hardware inteprets each instruction and generates control signals, provide a new sequence of codes for each new program instead of rewiring the hardware.
 
@@ -90,11 +90,11 @@
 3. A key characteristic of a bus in that it is a shared transmission medium. Why is this considered useful?
     - Provides a pathway between components. Multiple buses allow different components at various levels of the computer system hierachy to communicate at the same time.
 
-
+----------
 
 ### Processor Structure and Function, Control Unit Operation, Microprogramming Control
 
-### Chapter 14, 20, 21
+#### Chapter 14, 20, 21
 1. What are general purpose registers used for?
     - Enables the machine or assembly language programmer to minimize main memory references by optimising use of registers (slide 9)
 
@@ -133,12 +133,12 @@
 12. Name one advantage of implementing microprogramming.
     - Cheaper/less error prone (slide 56)
 
-
+----------
 
 ### RISC, Parallelism, Superscalar Concepts, Multicore Computer, GPUs and Industry Trends
 
-### Chapter 15
+#### Chapter 15
 1.
 
-### Chapter 16 - 19
+#### Chapter 16 - 19
 1.
