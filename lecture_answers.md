@@ -1,6 +1,6 @@
-# CSC1202 Lecture Slides Answers
+## CSC1202 Lecture Slides Answers
 
-## Computer Evolution and Performance Issues
+### Computer Evolution and Performance Issues
 
 ### Chapter 1 - Basic Concepts & Computer Evaluation
 1. Distinguish between structure and funciton:
@@ -14,7 +14,9 @@
 ### Chapter 2 - Performance Issues
 1. Processing speed is an important feature of computer's performance. What else is considered important when buying a computer?
 
-## Number Systems and Computer Arithmetic
+
+
+### Number Systems and Computer Arithmetic
 
 ### Chapter 9 - Number Systems
 1.
@@ -22,12 +24,16 @@
 ### Chapter 10 - Computer Arithmetic
 1.
 
-## Digital Logic
+
+
+### Digital Logic
 
 ### Chapter 11 - Digital Logic
 1.
 
-## Instruction sets: Characteristics and Functions, Addressing Modes and Formats
+
+
+### Instruction sets: Characteristics and Functions, Addressing Modes and Formats
 
 ### Chapter 12 - Instruction Sets: Characteristics and Functions
 1.
@@ -35,7 +41,9 @@
 ### Chapter 13 - Instruction Sets: Addressing Modes and Formats
 1.
 
-## Computer Functions and Interconnections, Cache, Internal and External Memory, Input/Output
+
+
+### Computer Functions and Interconnections, Cache, Internal and External Memory, Input/Output
 
 ### Chapter 4 - Cache Memory
 1. What is cache memory?
@@ -82,7 +90,9 @@
 3. A key characteristic of a bus in that it is a shared transmission medium. Why is this considered useful?
     - Provides a pathway between components. Multiple buses allow different components at various levels of the computer system hierachy to communicate at the same time.
 
-## Processor Structure and Function, Control Unit Operation, Microprogramming Control
+
+
+### Processor Structure and Function, Control Unit Operation, Microprogramming Control
 
 ### Chapter 14, 20, 21
 1. What are general purpose registers used for?
@@ -123,7 +133,9 @@
 12. Name one advantage of implementing microprogramming.
     - Cheaper/less error prone (slide 56)
 
-## RISC, Parallelism, Superscalar Concepts, Multicore Computer, GPUs and Industry Trends
+
+
+### RISC, Parallelism, Superscalar Concepts, Multicore Computer, GPUs and Industry Trends
 
 ### Chapter 15
 1.
