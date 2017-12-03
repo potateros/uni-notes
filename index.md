@@ -1,24 +1,40 @@
 # Content
 
-* [CSC1201 Lecture Slides Answers](#csc1201-lecture)
-  * [Chp 1, 2 - Computer Evolution and Performance Issues](#csc1201-compevo)
-  * [Chp 9, 10 - Number Systems and Computer Arithmetic](#csc1201-numbers)
-  * [Chp 11 - Digital Logic](#csc1201-logic)
-  * [Chp 12, 13 - Instruction Sets: Chracteristics and Functions, Addressing Modes and Formats](#csc1201-instsets)
-  * [Chp 3, 4, 5, 6, 7 - Computer Functions and Interconnections, Cache, Internal & External Memory, I/O](#csc1201-compfunc)
-  * [Chp 14, 20, 21 - Processor Structure and Function, Control Unit Operation, Microprogramming Control](#csc1201-procstruct)
-  * [Chp 15, 16-19 - RISC, Parallelism, Superscalar Concepts, Multicore Computer, GPUs and Industry Trends](#csc1201-multicore)
+<div id="contents"></div>
 
-* [CSC1201 Exam Coverage](#csc1201-exam)
+CSC 1202 - Computer Organization
+
+* [CSC1202 Lecture Slides Answers](#csc1202-lecture)
+  * [Chp 1, 2 - Computer Evolution and Performance Issues](#csc1202-compevo)
+  * [Chp 9, 10 - Number Systems and Computer Arithmetic](#csc1202-numbers)
+  * [Chp 11 - Digital Logic](#csc1202-logic)
+  * [Chp 12, 13 - Instruction Sets: Chracteristics and Functions, Addressing Modes and Formats](#csc1202-instsets)
+  * [Chp 3, 4, 5, 6, 7 - Computer Functions and Interconnections, Cache, Internal & External Memory, I/O](#csc1202-compfunc)
+  * [Chp 14, 20, 21 - Processor Structure and Function, Control Unit Operation, Microprogramming Control](#csc1202-procstruct)
+  * [Chp 15, 16-19 - RISC, Parallelism, Superscalar Concepts, Multicore Computer, GPUs and Industry Trends](#csc1202-multicore)
+
+* [CSC1202 8085](#csc1202-8085)
+
+* [CSC1202 Exam Coverage](#csc1202-exam)
+
+PRG 1203 - Object Oriented Programming Fundamentals
+
+* [PRG 1203 Exam Coverage](#prg1203-exam)
+
+SEG 1201 - Database Fundamentals
+
+* [SEG 1201 Lecture Notes](#seg1201-lecture)
+
+WEB 1201 - Web Fundamentals
 
 * [WEB1201 Exam Coverage](#web1201-exam)
 
-<div id="csc1201-lecture"></div>
+<div id="csc1202-lecture"></div>
 
 ## CSC1202 Lecture Slides Answers
 
 ---------
-<div id="csc1201-compevo"></div>
+<div id="csc1202-compevo"></div>
 
 ### Computer Evolution and Performance Issues
 
@@ -36,8 +52,10 @@
 1. **Processing speed is an important feature of computer's performance. What else is considered important when buying a computer?**
     * Storage, RAM size, etc.
 
+[Back to contents](#contents)
+
 ---------
-<div id="csc1201-numbers"></div>
+<div id="csc1202-numbers"></div>
 
 ### Number Systems and Computer Arithmetic
 
@@ -71,23 +89,30 @@
 1. **Why is normalization necessary? Give an example of a normalized number.**
     * Normalization is necessary to simplify operations on floating-point numbers. An example of a normalized number would be 1234 becoming 1.234x10
 
+[Back to contents](#contents)
+
 ---------
-<div id="csc1201-logic"></div>
+<div id="csc1202-logic"></div>
 
 ### Digital Logic
 
 #### Chapter 11 - Digital Logic
 
-1. **Draw a Karnaugh map to simplify**
+1. **Draw a Karnaugh map to simplify in Sum of Products (SOP) and Product of Sums (PSO) forms, if they exist.**
 
-1. **Design the corresponding combinational circuits of the simplified forms in the previous question.**
+![karnaugh_q](./karnaugh_q.png)
 
-1. **Differentiate between combinational and sequential circuits.**
+2. **Design the corresponding combinational circuits of the simplified forms in the previous question.**
 
-1. **What type of circuit has _"two outputs which are complements of each other"_?**
+3. **Differentiate between combinational and sequential circuits.**
+
+4. **What type of circuit has _"two outputs which are complements of each other"_?**
+
+
+[Back to contents](#contents)
 
 ---------
-<div id="csc1201-instsets"></div>
+<div id="csc1202-instsets"></div>
 
 ### Instruction sets: Characteristics and Functions, Addressing Modes and Formats
 
@@ -140,8 +165,10 @@
     Register Indirect | Operand is in memory location pointed to (pointer) by contents of register R | `ADD (a)` - add contents of the memory location pointed to by `(a)` to accumulator (`(a)` is a pointer in register)
     Stack | Operand is (implicitly) on top of stack | `PUSH B` - copy values from register B onto stack
 
+[Back to contents](#contents)
+
 ---------
-<div id="csc1201-compfunc"></div>
+<div id="csc1202-compfunc"></div>
 
 ### Computer Functions and Interconnections, Cache, Internal and External Memory, Input/Output
 
@@ -196,8 +223,10 @@
     * Proposed:
         * A more efficient technique: Direct Memory Access (DMA)
 
+[Back to contents](#contents)
+
 ---------
-<div id="csc1201-procstruct"></div>
+<div id="csc1202-procstruct"></div>
 
 ### Processor Structure and Function, Control Unit Operation, Microprogramming Control
 
@@ -245,8 +274,10 @@
 1. **Name one advantage of implementing microprogramming.**
     * Cheaper/less error prone (slide 56)
 
+[Back to contents](#contents)
+
 ---------
-<div id="csc1201-multicore"></div>
+<div id="csc1202-multicore"></div>
 
 ### RISC, Parallelism, Superscalar Concepts, Multicore Computer, GPUs and Industry Trends
 
@@ -299,9 +330,64 @@
     * Java applications - JVM is a multi-threaded processes that provides scheduling and memory management for Java applications.
     * Multi-instance operations - One application running multiple times at once.
 
+[Back to contents](#contents)
+
 ---------
 
-<div id="csc1201-exam"></div>
+<div id="csc1202-8085"></div>
+
+## 8085 Assembly
+
+### 8085 Characteristics to Note:
+
+* Registers use hexadecimal
+* Memory locations uses decimal
+* Subroutines == Functions
+
+### 8085 Op Codes
+
+Notes: Acc = Accumulator
+
+Opcode | Function | Mnemonic
+-----|-----|-----
+`MVI X, Y` | Moves Y (hex/dec) to X immediately | Move Immediately
+`MOV X, Y` | Moves content in register Y to register X | Move
+`ADD X` | Adds content in register X to Acc | Add
+`SUB X` | Subtracts content in register X from Acc | Subtract
+`LDA X` | Loads content from memory X into Acc | Load from Accumulator
+`STA X` | Stores content in Acc to memory X | Store To Accumulator
+`ADI X` | Increments Acc by X | Add to Immediately
+`SUI X` | Decrements Acc by X | Subtract from Immediately
+`INR X` | Increments Acc by 1 | Increment
+`STAX X` | Store contents of Acc into memory address in register X | Store Accumulator To X
+`LDAX X` | Load contents of memory address in register X to Acc | Load to Accumulator in X
+`PUSH X` | Pushes content in register X to stack | Push to Stack
+`POP X` | Retrieves content from top of stack into register X | Pop from Stack
+`SPHL` | Forces stack pointer to point to memory address stored in register HL | Stack Pointer to register HL
+`<name>: ` | Loop name / Function name
+`JNZ <name>` | Ends loop / function
+`CALL <name>` | Runs code inside `<name>`
+`RET` | Ends functions (required, similar to `break;`)
+
+### 8085 Status Registers/Flags
+
+`S - Z - AC - P - C`
+
+Flag | Name | Function
+-----|-----|-----
+SF/S | Sign bit | works with C flag to show that result of operation is `0`
+Z | Zero | switched on if result of operation at Accumulator is `0`
+AC/AF | Auxilary carry | appears if a carry bit is used at 4th bit (exceeds 4 bits)
+P | Parity | appears if operation causes EVEN numbers of 1s in binary (Eg:  `1010`, `1100`, `1110 1000`)
+C | carry | appears if a carry is performed at 8th bit OR result is a 2's complement (only if `S = 1` as well)
+
+Notes: `SF = 1` , `C = 1` = negative operation result
+
+[Back to contents](#contents)
+
+---------
+
+<div id="csc1202-exam"></div>
 
 ## CSC 1201 Exam Coverage
 
@@ -329,6 +415,48 @@ Part B - Choose TWO out of THREE questions (2x10m)
 * What is RISC? RISC vs CISC, register optimization methods (software vs hardware)
 * Concept of parallelism/parallel processing
 * Micro-program, micro-program control unit, micro-operations
+
+[Back to contents](#contents)
+
+---------
+<div id="prg1203-exam"></div>
+
+## PRG1203 Exam Coverage
+
+Section A - Compulsory (50 marks)
+
+* Q1 - All Topics
+
+Section B - 2 out of 3 (2 x 25 = 50 marks)
+
+* Q2 - Classes, OOP Features
+* Q3 - UML, OOP Features
+* Q4 - Inheritance, Interface - Theory
+
+[Back to contents](#contents)
+
+---------
+<div id="seg1201-lectures"></div>
+
+## SEG1201 Lecture Notes
+
+### The Relational Model
+
+Term | Explanation
+-----|-----
+Relation | **table** with columns and rows
+Database | **collection** of inter-related relations with distinct relation names.
+Attribute, Field, Properties | **named column** of a relation.
+Tuple, Record | **row** of a relation
+Domain | set of **allowed values** for one or more attributes
+Degree | the **number of attributes** a relation contains
+Cardinality | the **number of tuples** a relation contains
+Primary Key | An **attribute that uniquely identifies** any given entity (row). A primary key can be a combination of attributes
+Foreign Key | A primary key of one table that **appears again in another table**
+
+## Entity Relationship Diagram
+
+[Back to contents](#contents)
 
 ---------
 <div id="web1201-exam"></div>
@@ -399,3 +527,5 @@ Part B - Choose TWO out of THREE questions (2x10m)
 ### Lesson 10 - Web Publishing and Maintenance
 
 * Steps in publishing a website (explain with full elaboration)
+
+[Back to contents](#contents)
