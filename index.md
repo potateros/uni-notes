@@ -110,6 +110,19 @@ WEB 1201 - Web Fundamentals
 
 3. **Differentiate between combinational and sequential circuits.**
 
+Combinational Logic Circuits | Sequential Logic Circuits
+-----|-----
+Output is a function of the present inputs (Time Independent Logic) | Output is a function of clock, present inputs and the previous states of the system.
+Do not have the ability to store data (state) | Have memory to store the present states that is sent as contro input (enable) for the next operation.
+It does not require any feedback. It simply outputs the input according to the logic designed. | It involves feedback from output to input that is stored in the memory for the next operation.
+Used mainly for Arithmetic and Boolean operations | Used for storing data
+Logic gates are elementary building blocks. | Flip flops (binary storage device) are the elementary building unit
+Independent of clock and hence does not require triggering to operate. | Clocked (triggered for operation with electronic pulses)
+Eg: Adder (1 + 0 = 1); Dependency only on present inputs ie. 1 and 0 | Eg. Counter (Previous OP + 1 = Current OP); Depedency on present input as well as previous input.
+
+
+
+
 4. **What type of circuit has _"two outputs which are complements of each other"_?**
 
 
@@ -125,6 +138,26 @@ WEB 1201 - Web Fundamentals
 1. **Is it possible to write an instruction using only one address? How would you do this?**
 
 1. **Explain the little-endianbyte ordering scheme.**
+
+Big Endian - most significant byte in smallest address
+
+Address | Value
+-----|-----
+1000 | 90
+1001 | AB
+1002 | 12
+1003 | CD
+
+Little Endian - least significant byte in smallest address
+
+Address | Value
+-----|-----
+1000 | CD
+1001 | 12
+1002 | AB
+1003 | 90
+
+Basically, difference is like right-to-left langauges vs left-to-right langauges. Only difference in representation of data.
 
 1. **Differentiate between the "shift" and "rotate" operations.**
 
