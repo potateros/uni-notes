@@ -1,3 +1,7 @@
+<!--
+Add answers for exam scope csc1202
+-->
+
 # Content
 
 <div id="contents"></div>
@@ -13,7 +17,7 @@ CSC 1202 - Computer Organization
   * [Chp 14, 20, 21 - Processor Structure and Function, Control Unit Operation, Microprogramming Control](#csc1202-procstruct)
   * [Chp 15, 16-19 - RISC, Parallelism, Superscalar Concepts, Multicore Computer, GPUs and Industry Trends](#csc1202-multicore)
 
-* [CSC1202 8085](#csc1202-8085)
+* [CSC1202 8085 Assembly](#csc1202-8085)
 
 * [CSC1202 Exam Coverage](#csc1202-exam)
 
@@ -23,7 +27,7 @@ PRG 1203 - Object Oriented Programming Fundamentals
 
 SEG 1201 - Database Fundamentals
 
-* [SEG 1201 Lecture Notes](#seg1201-lecture)
+* [SEG 1201 Lecture Notes](#seg1201-lectures)
 
 WEB 1201 - Web Fundamentals
 
@@ -197,9 +201,12 @@ WEB 1201 - Web Fundamentals
 
      SRAM | Both | DRAM
      -----|------|-----
-    simpler to build, smaller | volatile | faster
-    denser, cheaper | | used for cache memory
-    used for main memory |
+    low capacity | volatile | higher capacity
+    used for CPU cache | | used for computer RAM
+    expensive ($5000/GB) | | cheaper ($50/GB)
+    low power consumption | | higher power consumption
+
+    [In-depth explanation here](https://www.diffen.com/difference/Dynamic_random-access_memory_vs_Static_random-access_memory)
 
 1. **What is ROM? Give to applications of ROM.**
     * ROM : contains permanent data that cannot be changed/added to
@@ -400,21 +407,21 @@ Part A - Two Questions
 Part B - Choose TWO out of THREE questions (2x10m)
 
 * Chapters 3 - 7, 9 - 16, 20, 21
-* Number systems & computer arithmetic:
+* Number systems & computer arithmetic: [Here](#csc1202-numbers)
   * basic hex to binary,
   * decimal to binary,
   * twos complement,
   * ASCII table will be provided
-* Simple Assembly Language code: analyse no more than TEN lines of code to determine contents of register/status flag/memory location
-* Internal Memory: cache memory vs regular internal memory
-* Big-endian vs little-endian byte ordering schemes, shift vs rotate operations
+* Simple Assembly Language code: analyse no more than TEN lines of code to determine contents of register/status flag/memory location [Here](#csc1202-8085)
+* Internal Memory: cache memory vs regular internal memory [Here](#csc1202-compfunc)
+* Big-endian vs little-endian byte ordering schemes, shift vs rotate operations [Here](#csc1202-instsets)
 * Program Status Word (what is this)
-* Addressing modes - immediate vs indirect register vs register
-* Reduce Boolean function using Karnaugh map (POS, SOP), simple circuit design from reduced Boolean function, combinational vs sequential circuits
-* Instruction pipelining (What is it? Why use it? How does it work?), indirect addressing requires additional memory access
-* What is RISC? RISC vs CISC, register optimization methods (software vs hardware)
-* Concept of parallelism/parallel processing
-* Micro-program, micro-program control unit, micro-operations
+* Addressing modes - immediate vs indirect register vs register [Here](#csc1202-instsets)
+* Reduce Boolean function using Karnaugh map (POS, SOP), simple circuit design from reduced Boolean function, combinational vs sequential circuits [Here](#csc1202-logic)
+* Instruction pipelining (What is it? Why use it? How does it work?), indirect addressing requires additional memory access [Here](#csc1202-procstruct)
+* What is RISC? RISC vs CISC, register optimization methods (software vs hardware) [Here](#csc1202-multicore)
+* Concept of parallelism/parallel processing [Here](#csc1202-multicore)
+* Micro-program, micro-program control unit, micro-operations [Here](#csc1202-procstruct)
 
 [Back to contents](#contents)
 
