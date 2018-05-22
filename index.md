@@ -2,6 +2,8 @@
 
 Note: These notes are for 2017 January intakes. Syllabus will most likely have changed since then. Use at your own discretion, but I hold zero liability for your passing of your exams.
 
+Also some of them are empty - I didn't have much notes for them. Hit me up to see if I got anything @ ericngu97[at]gmail.com or on my Twitter @potateros
+
 Enjoy! ✨
 
 ## Contents
@@ -44,3 +46,4 @@ Enjoy! ✨
 - [SEG 2202 - Software Engineering](seg2202.md)
 
 ---
+
