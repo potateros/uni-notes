@@ -10,16 +10,15 @@ Enjoy! ✨
 
 ### Semester 1️ (Jan 2017)
 
-- [CSC 1014 - Computing Fundamentals](csc1014.md)
-- [MU2 2153 - Ethnic Relations](mu22153.md)
+- [WIP - CSC 1014 - Computing Fundamentals](csc1014.md)]
 
 ---
 
 ### Semester 2 (Apr 2017)
 
-- [MTH 1114 - Computer Mathematics](mth1114.md)
-- [PRG 1114 - Programming Concepts & Problem Solving](prg1114.md)
-- [PRG 1124 - Programming Principles](prg1124.md)
+- [WIP - MTH 1114 - Computer Mathematics](mth1114.md)
+- [WIP - PRG 1114 - Programming Concepts & Problem Solving](prg1114.md)
+- [WIP - PRG 1124 - Programming Principles](prg1124.md)
 
 ---
 
@@ -34,7 +33,7 @@ Enjoy! ✨
 
 ### Semester 4️ (Jan 2018)
 
-- [BIS 2205 - Social & Professional Responsibilities](bis2205.md)
+- [WIP - BIS 2205 - Social & Professional Responsibilities](bis2205.md)
 
 ---
 
@@ -46,4 +45,3 @@ Enjoy! ✨
 - [SEG 2202 - Software Engineering](seg2202.md)
 
 ---
-
