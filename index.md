@@ -2,7 +2,7 @@
 
 Note: These notes are for 2017 January intakes. Syllabus will most likely have changed since then. Use at your own discretion, but I hold zero liability for your passing of your exams.
 
-Also some of them are empty - I didn't have much notes for them. Hit me up to see if I got anything @ ericngu97[at]gmail.com or on my Twitter @potateros
+I have not made notes for many of the subjects, but hopefully for the ones I do have, that it'll help you in any way.
 
 Enjoy! ✨
 
@@ -10,15 +10,15 @@ Enjoy! ✨
 
 ### Semester 1️ (Jan 2017)
 
-- [WIP - CSC 1014 - Computing Fundamentals](csc1014.md)]
+<!-- - [WIP - CSC 1014 - Computing Fundamentals](csc1014.md)] -->
 
 ---
 
 ### Semester 2 (Apr 2017)
 
-- [WIP - MTH 1114 - Computer Mathematics](mth1114.md)
-- [WIP - PRG 1114 - Programming Concepts & Problem Solving](prg1114.md)
-- [WIP - PRG 1124 - Programming Principles](prg1124.md)
+<!-- - [WIP - MTH 1114 - Computer Mathematics](mth1114.md) -->
+<!-- - [WIP - PRG 1114 - Programming Concepts & Problem Solving](prg1114.md) -->
+<!-- - [WIP - PRG 1124 - Programming Principles](prg1124.md) -->
 
 ---
 
@@ -33,7 +33,7 @@ Enjoy! ✨
 
 ### Semester 4️ (Jan 2018)
 
-- [WIP - BIS 2205 - Social & Professional Responsibilities](bis2205.md)
+<!-- - [WIP - BIS 2205 - Social & Professional Responsibilities](bis2205.md) -->
 
 ---
 
@@ -45,3 +45,11 @@ Enjoy! ✨
 - [SEG 2202 - Software Engineering](seg2202.md)
 
 ---
+
+### Semester 6 (July 2018)
+
+<!-- - [CSC2014 - Digital Image Processing](csc2014.md) -->
+<!-- - [CSC2034 - Embedded Systems](csc2034.md) -->
+<!-- - [CSC3024 - Human Computer Interaction](csc3024.md) -->
+
+- [NET2201 - Computer Networks](net2201.md)
